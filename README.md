@@ -17,11 +17,22 @@ Amazon Virtual Private Cloud (VPC) serves as the backbone of your cloud network.
 
 Amazon Elastic Compute Cloud (EC2) is where your services and applications operate. This section walks through the key steps for setting up compute resources:
 
-* Launching EC2 Instances: Deploy web servers to host your applications
-* Security Groups: Implement access controls to protect your instances
-* User Data Scripts: Automate instance configuration with custom scripts
-* Elastic Load Balancer (ELB): Manage incoming traffic for better availability and performance
+* Launching EC2 Instances: Deploy web servers to host your applications.
+* Security Groups: Implement access controls to protect your instances.
+* User Data Scripts: Automate instance configuration with custom scripts.
+* Elastic Load Balancer (ELB): Manage incoming traffic for better availability and performance.
 * Auto Scaling Group: Automatically adjust instance count for scalability and reliability.
 
+
+## Clean Up
+
+Efficient resource management is vital. In this final section, you'll learn how to properly remove and decommission the resources you've created. This step is essential to avoid unnecessary costs and maintain a clean, organized AWS environment.
+
+## Conclusion
+
+By following these steps, you’ve created a scalable, secure, and highly available multi-tier architecture from the ground up. Through configuring a custom VPC, managing NAT and Internet Gateways, deploying EC2 instances with IAM roles, and linking everything with an Application Load Balancer and Auto Scaling Group, you’ve gained essential skills in cloud networking, automation, and infrastructure design. This hands-on journey is a strong launchpad for building real-world solutions in the cloud.
+
+
+For a comprehensive walkthrough, please visit the full blog post: [Designing and deploying a custom VPC for a Multi-Tier Web App on in AWS](https://medium.com/@iyousefzeer/designing-and-deploying-a-custom-vpc-for-a-multi-tier-web-app-on-in-aws-1dd4cdb19ba9)
 
 
